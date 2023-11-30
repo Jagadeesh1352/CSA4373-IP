@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Welcome
+	</title>
+</head>
+<body>
+	Welcome<br>
+	<img src="../Images/10.jpg" width="400" height="400">
+</body>
+</html>
+
+<!DOCTYPE HTML>
+<body>
+	<a href="welcome.html" target="top">Welcome Link</a><br>
+	<a href="about:blank" target="top">Clear Welcome Link</a><br>
+	<a href="members.html" target="bottom">Members</a><br>
+	<a href="about:blank" target="bottom">Clear Members</a><br>
+</body>
+
+  <!DOCTYPE html>
+<html>
+<head>
+	<title>Members</title>
+</head>
+<body>
+<p>Created by <a href="https:github.com/archie94">Arka</a></p>
+</body>
+</html>
+
+  <!DOCTYPE HTML>
+
+<head>
+	<title>Frames in HTML</title>
+</head>
+
+<frameset rows="40%,20%,40%">
+	<frame name="top"/>
+	<frame name="main" src="select.html" />
+	<frame name="bottom" />
+	<noframes>
+		<body>
+			Your browser doesnot support frames!
+		</body>
+	</noframes>
+</frameset>
